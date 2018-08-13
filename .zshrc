@@ -24,14 +24,6 @@ alias vim="nvim"
 alias la='ls -a'
 alias ll='ls -l'
 
-# ls colour
-export CLICOLOR=1
-export LSCOLORS="BxGxBxDxCxEgEdxbxgxcxd"
-
-# fn-delete delete
-bindkey "^[[3~" delete-char
-
 if [[ ! "$TMUX" ]] ; then
-  tmux has-session -t mail || tmux new-session -A -d -s mail sup
   tmux attach -t workspace || tmux new-session -A -s workspace
 fi
