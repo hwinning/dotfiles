@@ -4,13 +4,17 @@ filetype off                  " required
 " vim-plug is the plugin manager
 call plug#begin('~/.vim/plugged')
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-
+Plug 'Shougo/echodoc'
+" XML
+Plug 'alvan/vim-closetag'
+" python
+Plug 'zchee/deoplete-jedi'
 " golang
 Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
-
-" python
-Plug 'zchee/deoplete-jedi'
+"typescript
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 call plug#end()
 
 " deoplete
