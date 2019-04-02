@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/heath/projects/angular-form-example/src/app/thing-with-rules-container'
-let g:netrw_dirhist_2='/home/heath/projects/portal/src/app/audience-creation-form'
-let g:netrw_dirhist_3='/home/heath/projects/portal/obsidian'
-let g:netrw_dirhist_4='/home/heath/Downloads/cloudml-samples-master/census/estimator/data'
-let g:netrw_dirhist_5='/home/heath/projects/shipacar/constants'
-let g:netrw_dirhist_6='/home/heath/projects/shipacar/output'
-let g:netrw_dirhist_7='/home/heath/projects/portal/__pycache__'
-let g:netrw_dirhist_8='/home/heath/angular-loader'
-let g:netrw_dirhist_9='/home/heath/projects/shipacar/constants'
+let g:netrw_dirhist_cnt =0

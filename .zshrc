@@ -37,7 +37,3 @@ if [ -f '/home/heath/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/heath
 export PATH="/home/heath/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
-
-if [[ ! "$TMUX" ]] ; then
-  tmux attach -t workspace || tmux new-session -A -s workspace
-fi
